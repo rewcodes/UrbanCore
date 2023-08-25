@@ -1,0 +1,89 @@
+.navbar {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text color */
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar-icons i {
+    font-size: 20px;
+    color: black;
+}
+
+#category a 
+{
+    color: black;
+    width:max-content;
+    margin: 100px auto;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    cursor: pointer;
+    font-size: 23px;
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+#category a:last-child {
+    margin-right: 0;
+}
+
+#category a::after
+{
+   content: "";
+   position: absolute;
+   bottom: -4px;
+   height: 4px;
+   width: 100%;
+   background-color: black;
+   left:0;
+   transition: 0.2s;
+   transition-timing-function: ease;
+   transform: scaleX(0);
+}
+
+#category a:hover::after
+{
+    transform: scaleX(1);
+}
+
+#contact-us
+{
+    font-size: 23px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.cover-picture
+{
+   padding-left: 250px;
+}
+
+#newcollection-heading
+{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 40px;
+    font-size: 23px;
+}
+
+#newcollection-heading a
+{
+    padding-left: 30px;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
